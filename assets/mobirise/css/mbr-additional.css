@@ -2769,7 +2769,7 @@ hr {
 .cid-rRBNq1QjUI {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #000000;
+  background-color: #2f4858;
 }
 .cid-rRBNq1QjUI .media-container-row {
   align-items: center;
@@ -2838,4 +2838,5 @@ hr {
 }
 .cid-rRBNq1QjUI .media-container-row .mbr-text {
   text-align: right;
+  color: #f3f3f3;
 }
