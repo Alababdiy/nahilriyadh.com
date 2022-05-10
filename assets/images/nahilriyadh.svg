@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1, 0, 0, -1, -113.439705, 523.699107)">
+    <g transform="matrix(2.388142, 0, 0, 2.388142, 232.213242, 165.934692)" style="">
+      <path d="M 0 0 L 0 73.669 L 27.687 92.28 L 27.687 18.464 L 82.55 -1.653 L 82.55 -30.082 Z" style="fill: rgb(255, 99, 0); fill-opacity: 1;"/>
+    </g>
+    <g transform="matrix(2.388142, 0, 0, 2.388142, 397.953583, 453.303589)" style="">
+      <path d="M 0 0 L -26.62 -17.897 L 13.153 -78.452 L 13.153 -150.41 L 40.497 -132.464 L 40.497 -61.357 Z" style="fill: rgb(82, 94, 103); fill-opacity: 1;"/>
+    </g>
+  </g>
+</svg>
