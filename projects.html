@@ -11,8 +11,8 @@
   
   
   <title>مشاريعنا</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -31,27 +31,7 @@
 </head>
 <body>
   
-  <section class="header2 studiom4_header2 cid-t6hIrqntg8" id="header2-1n">
-
-	
-
-	<div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 255, 255);"></div>
-
-	<div class="container align-center">
-		<div class="row justify-content-md-center">
-			<div class="mbr-white col-md-10 col-lg-7">
-				
-				<h1 class="mbr-section-title mbr-semibold mbr-fonts-style align-center display-1">مشاريعنا</h1>
-				
-				
-			</div>
-		</div>
-	</div>
-
-	
-</section>
-
-<section class="menu cid-rR8qj3Lr1I" once="menu" id="menu1-1l">
+  <section class="menu cid-rR8qj3Lr1I" once="menu" id="menu1-1l">
 
     
 
@@ -84,6 +64,26 @@
       </div>
     </nav>
     [JS_CODE_0]
+</section>
+
+<section class="header2 studiom4_header2 cid-t6hIrqntg8" id="header2-1n">
+
+	
+
+	<div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 255, 255);"></div>
+
+	<div class="container align-center">
+		<div class="row justify-content-md-center">
+			<div class="mbr-white col-md-10 col-lg-7">
+				
+				<h1 class="mbr-section-title mbr-semibold mbr-fonts-style align-center display-1">مشاريعنا</h1>
+				
+				
+			</div>
+		</div>
+	</div>
+
+	
 </section>
 
 <section class="features1 studiom4_features1 cid-t6jaoup2aa" id="features1-1q">
@@ -139,35 +139,7 @@
 			
 		</div>
 	</div>
-    <script>
-             
-        $( document ).ready(function() {
-   projects_list = document.getElementById('project_list');
-        projects_list.innerHTML = '';
-        document.querySelectorAll('x-project').forEach((e)=>{
-        projects_list.append(asHtml(`<div class="card col-12 col-md-6 col-lg-4" style="margin-top:10px">
-				<div class="card-inner">
-					<div class="card-img">
-						<span class="mbr-iconfont mobi-mbri-desktop mobi-mbri icon-1"></span>
-					</div>
-					<div class="card-box">
-						<h5 class="link align-center mbr-fonts-style display-7">${e.project_name}</h5>
-					</div>
-					<div class="card-icon">
-						<span class="mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri"></span>
-					</div>
-				</div>
-
-			</div>`));
-})
-            document.querySelectorAll('div.card').forEach((e) => {
-    e.onclick = function (){
-        $(window).scrollTop($("*:contains('"+e.querySelector('h5.link').innerHTML+"'):last").offset().top-100);
-    }
-});      
-});
-     
-    </script>
+  
 </section>
 
 <section class="image1 studiom4_image1 cid-t6hKceDhnY" id="image1-1o">
@@ -258,7 +230,35 @@
             </x-project>
         </div>
     
-        
+          <script>
+             
+        $( document ).ready(function() {
+   projects_list = document.getElementById('project_list');
+        projects_list.innerHTML = '';
+        document.querySelectorAll('x-project').forEach((e)=>{
+        projects_list.append(asHtml(`<div class="card col-12 col-md-6 col-lg-4" style="margin-top:10px">
+				<div class="card-inner">
+					<div class="card-img">
+						<span class="mbr-iconfont mobi-mbri-desktop mobi-mbri icon-1"></span>
+					</div>
+					<div class="card-box">
+						<h5 class="link align-center mbr-fonts-style display-7">${e.project_name}</h5>
+					</div>
+					<div class="card-icon">
+						<span class="mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri"></span>
+					</div>
+				</div>
+
+			</div>`));
+})
+            document.querySelectorAll('div.card').forEach((e) => {
+    e.onclick = function (){
+        $(window).scrollTop($("*:contains('"+e.querySelector('h5.link').innerHTML+"'):last").offset().top-100);
+    }
+});      
+});
+     
+    </script>
 
 </section>
 
