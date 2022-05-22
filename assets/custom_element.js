@@ -1,3 +1,5 @@
+{/* <h1 class="mbr-section-title mbr-semibold mbr-fonts-style align-center display-5">بداية عقد التأجير: </h1>
+<p class="mbr-text mbr-fonts-style display-5">${this.contract_type}<br/></p> */}
 function get_data(html_element) {
     const data = {}
     const children = [...html_element.children];
@@ -56,8 +58,7 @@ function remove_empty_args(doc) {
 <p class="mbr-text mbr-fonts-style display-5">
       ${this.content}
   </p>
-<h1 class="mbr-section-title mbr-semibold mbr-fonts-style align-center display-5">بداية عقد التأجير: </h1>
-<p class="mbr-text mbr-fonts-style display-5">${this.contract_type}<br/></p>
+
 <div class="mbr-section-btn align-right"><a class="btn btn-warning display-7" href="${this.project_location}">موقع المشروع</a></div>
 </div>
 <div class="col-lg-5">
